@@ -20,10 +20,10 @@
 import pyautogui
 from time import sleep
 
-pyautogui.hotkey("command", "space") #change hotkey() accordingly 
-pyautogui.typewrite("Sublime Text.app") #change typewrite() accordingly 
-pyautogui.typewrite(["enter"])
-sleep(1.5)  #change sleep time accordingly
+#pyautogui.hotkey("command", "space") #change hotkey() accordingly 
+#pyautogui.typewrite("Sublime Text.app") #change typewrite() accordingly 
+#pyautogui.typewrite(["enter"])
+sleep(5)  #change sleep time accordingly
 pyautogui.hotkey("down", "right")
 pyautogui.hotkey("backspace")
 x = 1
@@ -36,6 +36,6 @@ while x < 300: # #change loop number accordingly
 # i write this code to fix (IndentationError:) in python but it can be used anywhere.
 # because of the error i had to press (down arrow key, right arrow key & backsapce key) around 300 times & that’s exhausting.
 # so i made this bot >> programmed it to run specific keystroke on loop.
-# so whn u run the code it opens >> "serach menu"  & then type>> "Sublime Text editor"  & then hit >> enyter & then>> "there’s sleep time of 2 sec" & then >> it press "down arrow key, right arrow key, backsapce.
+# so whn u run the code >> "there’s sleep time of 5 sec">> manually open that specific file put the cursor form where wanna bot to work >> & then >> it press "down arrow key, right arrow key, backsapce.
 # & it's repeat same thing 300 times.
 # -----------------------------------------------------------
