@@ -23,11 +23,11 @@ from time import sleep
 pyautogui.hotkey("command", "space") #change hotkey() accordingly 
 pyautogui.typewrite("Sublime Text.app") #change typewrite() accordingly 
 pyautogui.typewrite(["enter"])
-sleep(1.5)
+sleep(1.5)  #change sleep time accordingly
 pyautogui.hotkey("down", "right")
 pyautogui.hotkey("backspace")
 x = 1
-while x < 161:
+while x < 161: # #change loop number accordingly 
     pyautogui.hotkey("down", "right")
     pyautogui.hotkey("backspace")
     x += 1
